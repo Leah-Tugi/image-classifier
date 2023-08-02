@@ -1,0 +1,122 @@
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+N Dog Images        :  10
+ 
+pct_match : 87.5 %
+pct_correct_dogs : 100.0 %
+pct_correct_breed : 93.3 %
+pct_correct_notdogs : 100.0 %
+
+INCORRECT Dog Breed Assignment:
+Real:                     beagle   Classifier:  walker hound, walker foxhound
+Real:             great pyrenees   Classifier:                         kuvasz
+
+** Total Elapsed Runtime: 0:1:28
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :  40
+N Dog Images        :  30
+N Dog Images        :  10
+ 
+pct_match : 133.3 %
+pct_correct_dogs : 100.0 %
+pct_correct_breed : 80.0 %
+pct_correct_notdogs : 0.0 %
+pct_corr_dog : 100.0 %
+
+INCORRECT Dog/NOT Dog Assignments:
+
+INCORRECT Dog Breed Assignment:
+Real:                     beagle   Classifier:  walker hound, walker foxhound
+Real:                     beagle   Classifier:               english foxhound
+Real:             great pyrenees   Classifier:                         kuvasz
+Real:           golden retriever   Classifier:           afghan hound, afghan
+Real:           golden retriever   Classifier:                tibetan mastiff
+Real:             boston terrier   Classifier:                        basenji
+
+** Total Elapsed Runtime: 0:0:16
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :  40
+N Dog Images        :  30
+N Dog Images        :  10
+ 
+pct_match : 121.2 %
+pct_correct_dogs : 100.0 %
+pct_correct_breed : 90.0 %
+pct_correct_notdogs : 0.0 %
+pct_corr_dog : 100.0 %
+
+INCORRECT Dog/NOT Dog Assignments:
+Real:                        cat   Classifier:   norwegian elkhound, elkhound
+
+INCORRECT Dog Breed Assignment:
+Real:                     beagle   Classifier:  walker hound, walker foxhound
+Real:             great pyrenees   Classifier:                         kuvasz
+Real:           golden retriever   Classifier:                       leonberg
+
+** Total Elapsed Runtime: 0:0:42
+
+
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :   4
+N Dog Images        :   2
+N Dog Images        :   2
+ 
+pct_match : 0.0 %
+pct_correct_dogs : 100.0 %
+pct_correct_breed : 0.0 %
+pct_correct_notdogs : 0.0 %
+pct_corr_dog : 100.0 %
+
+INCORRECT Dog/NOT Dog Assignments:
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier: pembroke, pembroke welsh corgi, corgi
+Real:                        dog   Classifier: pembroke, pembroke welsh corgi, corgi
+
+** Total Elapsed Runtime: 0:0:8
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :   4
+N Dog Images        :   2
+N Dog Images        :   2
+ 
+pct_match : 400.0 %
+pct_correct_dogs : 100.0 %
+pct_correct_breed : 0.0 %
+pct_correct_notdogs : 0.0 %
+pct_corr_dog : 100.0 %
+
+INCORRECT Dog/NOT Dog Assignments:
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier: pembroke, pembroke welsh corgi, corgi
+Real:                        dog   Classifier: pembroke, pembroke welsh corgi, corgi
+
+** Total Elapsed Runtime: 0:0:4
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Dog Images        :   2
+ 
+pct_match : 400.0 %
+pct_correct_dogs : 100.0 %
+pct_correct_breed : 0.0 %
+pct_correct_notdogs : 0.0 %
+pct_corr_dog : 100.0 %
+
+INCORRECT Dog/NOT Dog Assignments:
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier: pembroke, pembroke welsh corgi, corgi
+Real:                        dog   Classifier: pembroke, pembroke welsh corgi, corgi
+
+** Total Elapsed Runtime: 0:0:1
+
+
+
+
